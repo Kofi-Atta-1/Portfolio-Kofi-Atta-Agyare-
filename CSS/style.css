@@ -28,6 +28,11 @@ body.dark-mode a {
     color: #90caf9;
 }
 
+/* Ensure links have a default color in light mode */
+a {
+    color: #333;
+}
+
 body.dark-mode .profile-img {
     border-color: #333;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
